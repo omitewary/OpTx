@@ -1,4 +1,4 @@
-export const OUTPUT_FILE = "opentext_products.json";
+export const OUTPUT_FILE = "products.json";
 
 export const SELECTORS = {
   URL: "https://www.microfocus.com/en-us/products?trial=true",
