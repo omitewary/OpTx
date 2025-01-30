@@ -1,6 +1,6 @@
 import puppeteer from "puppeteer";
 import fs from "fs";
-import { OUTPUT_FILE, SELECTORS } from "./constants.js";
+import { OUTPUT_FILE, SELECTORS } from "./constants2.js";
 
 const getProducts = async () => {
   try {
@@ -23,22 +23,22 @@ const getProducts = async () => {
     });
 
     //Wait for css class [letter-block] to load
-    await page.goto("https://www.microfocus.com/en-us/products?trial=true", {
+    await page.goto(SELECTORS.URL, {
       waitUntil: "domcontentloaded",
     });
-    await page.waitForSelector(SELECTORS.CLS_LETTER_BLOCK, { timeout: 10000 });
+    await page.waitForSelector(SELECTORS.KEY_SELECTOR, { timeout: 10000 });
 
     // Extract products
     const products = await page.evaluate((selectors) => {
       const {
         NOT_AVAILABLE,
-        CLS_LETTER_BLOCK,
-        CLS_EACH_LETTER,
-        CLS_CARD,
-        CLS_CARD_FOOTER,
-        CLS_CARD_TITLE,
-        CLS_CARD_DESC,
-        CLS_CTA_SECTION,
+        CONTAINER,
+        STARTING_LETTER,
+        PRODUCT_CONTAINER,
+        CONTAINER_FOOTER,
+        PRODUCT_TITLE,
+        PRODUCT_DESC,
+        PRODUCT_LINK,
         HREF_SUPPORT,
         HREF_COMMUNITY,
         TXT_FREE_TRIAL,
@@ -56,41 +56,43 @@ const getProducts = async () => {
       const extractLink = (element, selector) =>
         element?.querySelector(selector)?.href || NOT_AVAILABLE;
 
-      return Array.from(document.querySelectorAll(CLS_LETTER_BLOCK)).flatMap(
+      return Array.from(document.querySelectorAll(CONTAINER)).flatMap(
         (block) => {
-          const startingLetter = extractText(block, CLS_EACH_LETTER);
+          const startingLetter = extractText(block, STARTING_LETTER);
 
           // Select all product cards inside this letter block
-          return Array.from(block.querySelectorAll(CLS_CARD)).map((card) => {
-            const footer = card.querySelector(CLS_CARD_FOOTER);
+          return Array.from(block.querySelectorAll(PRODUCT_CONTAINER)).map(
+            (card) => {
+              const footer = card.querySelector(CONTAINER_FOOTER);
 
-            const productFooterLinks = {
-              "Support Login": extractLink(footer, HREF_SUPPORT),
-              Community: extractLink(footer, HREF_COMMUNITY),
-            };
+              const productFooterLinks = {
+                "Support Login": extractLink(footer, HREF_SUPPORT),
+                Community: extractLink(footer, HREF_COMMUNITY),
+              };
 
-            return {
-              "Starting Letter": startingLetter,
-              "Product Name": extractText(card, CLS_CARD_TITLE),
-              Description: extractText(card, CLS_CARD_DESC),
-              "Free Trial / Demo Request URL": extractAll(
-                card,
-                CLS_CTA_SECTION,
-                (cta) => {
-                  const text = cta.innerText.trim();
-                  return {
-                    type: text.toLowerCase().includes(TXT_FREE_TRIAL)
-                      ? TYPE_FREE_TRIAL
-                      : text.toLowerCase().includes(TXT_DEMO)
-                      ? TYPE_DEMO
-                      : "Other",
-                    url: cta.href || NOT_AVAILABLE,
-                  };
-                }
-              ),
-              ...productFooterLinks,
-            };
-          });
+              return {
+                "Starting Letter": startingLetter,
+                "Product Name": extractText(card, PRODUCT_TITLE),
+                Description: extractText(card, PRODUCT_DESC),
+                "Free Trial / Demo Request URL": extractAll(
+                  card,
+                  PRODUCT_LINK,
+                  (cta) => {
+                    const text = cta.innerText.trim();
+                    return {
+                      type: text.toLowerCase().includes(TXT_FREE_TRIAL)
+                        ? TYPE_FREE_TRIAL
+                        : text.toLowerCase().includes(TXT_DEMO)
+                        ? TYPE_DEMO
+                        : "Other",
+                      url: cta.href || NOT_AVAILABLE,
+                    };
+                  }
+                ),
+                ...productFooterLinks,
+              };
+            }
+          );
         }
       );
     }, SELECTORS);
