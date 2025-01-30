@@ -23,12 +23,9 @@ const getProducts = async () => {
     });
 
     //Wait for css class [letter-block] to load
-    await page.goto(
-      "https://web.archive.org/web/20250119070347/https://www.microfocus.com/en-us/products?trial=true&ref=ddm",
-      {
-        waitUntil: "domcontentloaded",
-      }
-    );
+    await page.goto("https://www.microfocus.com/en-us/products?trial=true", {
+      waitUntil: "domcontentloaded",
+    });
     await page.waitForSelector(SELECTORS.CLS_LETTER_BLOCK, { timeout: 10000 });
 
     // Extract products
