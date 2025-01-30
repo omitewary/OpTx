@@ -29,38 +29,69 @@ const getProducts = async () => {
 
     // Extract products
     const products = await page.evaluate(() => {
-      const footer = document.querySelector("#skip-footer");
-      const footerLinks = {
-        "Support Login":
-          footer.querySelector("a[href*='support']")?.href || "N/A",
-        Community: footer.querySelector("a[href*='community']")?.href || "N/A",
-      };
+      const extractAll = (element, selector, callback) =>
+        Array.from(element?.querySelectorAll(selector) || []).map(callback);
 
-      return Array.from(
-        document.querySelectorAll(".letter-block"),
-        (block) => ({
-          "Starting Letter":
-            block.querySelector(".each-letter")?.innerText.trim() || "N/A",
-          "Product Name":
-            block.querySelector(".title")?.innerText.trim() || "N/A",
-          "Description":
-            block.querySelector(".description")?.innerText.trim() || "N/A",
-          "Free Trial / Demo Request URL":
-            block.querySelector(".cta-section a")?.href || "N/A",
-          ...footerLinks,
-        })
+      const extractText = (element, selector) =>
+        element?.querySelector(selector)?.innerText.trim() || "N/A";
+
+      const extractLink = (element, selector) =>
+        element?.querySelector(selector)?.href || "N/A";
+
+      return Array.from(document.querySelectorAll(".letter-block")).flatMap(
+        (block) => {
+          const startingLetter = extractText(block, ".each-letter");
+
+          // Select all product cards inside this letter block
+          return Array.from(block.querySelectorAll(".uk-card")).map((card) => {
+            const footer = card.querySelector(".footer");
+
+            const productFooterLinks = {
+              "Support Login": extractLink(footer, 'a[href*="support"]'),
+              Community: extractLink(footer, 'a[href*="community"]'),
+            };
+
+            return {
+              "Starting Letter": startingLetter,
+              "Product Name": extractText(card, ".title h3 a, .title h3 span"),
+              Description: extractText(card, ".description p"),
+              "Free Trial / Demo Request URL": extractAll(
+                card,
+                ".cta-section a",
+                (cta) => {
+                  const text = cta.innerText.trim();
+                  return {
+                    type: text.toLowerCase().includes("free trial")
+                      ? "Free Trial"
+                      : text.toLowerCase().includes("demo")
+                      ? "Demo"
+                      : "Other",
+                    url: cta.href || "N/A",
+                  };
+                }
+              ),
+              ...productFooterLinks,
+            };
+          });
+        }
       );
     });
 
-    console.log("Products: ", products);
+    console.log(products);
 
-    await browser.close();
+    const finalProdInfo = {
+      length: products.length,
+      products,
+    };
 
     // Save the products data to a JSON file
     const outputFile = "products.json";
-    fs.writeFileSync(outputFile, JSON.stringify(products, null, 4));
-
+    await fs.promises.writeFile(
+      outputFile,
+      JSON.stringify(finalProdInfo, null, 4)
+    );
     console.log(`Products have been saved to ${outputFile}`);
+    await browser.close();
   } catch (error) {
     console.error("Error:", error);
   }

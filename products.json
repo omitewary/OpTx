@@ -1,0 +1,735 @@
+{
+    "length": 54,
+    "products": [
+        {
+            "Starting Letter": "A",
+            "Product Name": "Adoption Readiness Tool",
+            "Description": "An interactive e-Learning software platform to manage rapid content development, increase user adoption and accelerate ROI.",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Free Trial",
+                    "url": "mailto:ART-Demo@microfocus.com"
+                }
+            ],
+            "Support Login": "https://www.microfocus.com/en-us/support/Adoption%20Readiness%20Tool%20(ART)",
+            "Community": "https://community.microfocus.com/welcome_to_the_community/adoption-readiness-tool/"
+        },
+        {
+            "Starting Letter": "A",
+            "Product Name": "ALM / Quality Center",
+            "Description": "Govern application lifecycle activities to ensure alignment with business objective and quality standard.",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Demo",
+                    "url": "https://www.microfocus.com/en-us/products/alm-quality-center/request-demo"
+                }
+            ],
+            "Support Login": "N/A",
+            "Community": "N/A"
+        },
+        {
+            "Starting Letter": "A",
+            "Product Name": "ALM Octane",
+            "Description": "High-quality application delivery at enterprise scale. For Agile, Hybrid or Traditional teams.",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Free Trial",
+                    "url": "https://www.microfocus.com/en-us/products/alm-octane/free-trial"
+                },
+                {
+                    "type": "Demo",
+                    "url": "https://www.microfocus.com/en-us/products/alm-octane/request-demo"
+                }
+            ],
+            "Support Login": "N/A",
+            "Community": "N/A"
+        },
+        {
+            "Starting Letter": "A",
+            "Product Name": "ArcSight Intelligence",
+            "Description": "ArcSight Intelligence augments existing security tools and empowers security operations teams to identify and respond to the threats that matter.",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Demo",
+                    "url": "https://www.microfocus.com/en-us/products/arcsight-intelligence/request-demo"
+                }
+            ],
+            "Support Login": "N/A",
+            "Community": "N/A"
+        },
+        {
+            "Starting Letter": "A",
+            "Product Name": "ArcSight Intelligence for CrowdStrike",
+            "Description": "Advanced Behavioral Analytics tool for CrowdStrike that empowers security operations teams to find and respond to insider & advanced persistent threats before it’s too late.",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Demo",
+                    "url": "https://www.microfocus.com/en-us/products/arcsight-intelligence-for-crowdstrike/request-demo"
+                }
+            ],
+            "Support Login": "N/A",
+            "Community": "N/A"
+        },
+        {
+            "Starting Letter": "A",
+            "Product Name": "ArcSight Recon",
+            "Description": "Implement a SIEM log management solution created for security analytics, investigation, and compliance.",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Free Trial",
+                    "url": "https://www.microfocus.com/en-us/products/arcsight-recon/free-trial"
+                }
+            ],
+            "Support Login": "https://www.microfocus.com/en-us/support/ArcSight%20Recon",
+            "Community": "https://community.microfocus.com/cyberres/arcsight/"
+        },
+        {
+            "Starting Letter": "A",
+            "Product Name": "Asset Management X",
+            "Description": "Manage IT assets for improved costs.",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Demo",
+                    "url": "https://www.microfocus.com/en-us/products/asset-management-software/request-demo"
+                }
+            ],
+            "Support Login": "N/A",
+            "Community": "N/A"
+        },
+        {
+            "Starting Letter": "C",
+            "Product Name": "Cloud Optimizer",
+            "Description": "Monitoring, capacity and performance management for virtualized environments",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Demo",
+                    "url": "https://www.microfocus.com/en-us/products/cloud-optimizer/request-demo"
+                }
+            ],
+            "Support Login": "N/A",
+            "Community": "N/A"
+        },
+        {
+            "Starting Letter": "C",
+            "Product Name": "Content Manager",
+            "Description": "Helping organizations meet data privacy regulatory guidelines through the management & disposition of data.",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Free Trial",
+                    "url": "https://www.microfocus.com/en-us/products/enterprise-content-management/free-trial"
+                },
+                {
+                    "type": "Demo",
+                    "url": "https://www.microfocus.com/en-us/products/enterprise-content-management/request-demo"
+                }
+            ],
+            "Support Login": "N/A",
+            "Community": "N/A"
+        },
+        {
+            "Starting Letter": "C",
+            "Product Name": "Content Manager Cloud",
+            "Description": "Flexible enterprise content management software - in the cloud, delivered in a SaaS model.",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Demo",
+                    "url": "https://www.microfocus.com/en-us/products/enterprise-content-management-saas/request-demo"
+                }
+            ],
+            "Support Login": "N/A",
+            "Community": "N/A"
+        },
+        {
+            "Starting Letter": "D",
+            "Product Name": "Data Protector",
+            "Description": "Backup and disaster recovery for diverse, dynamic, and distributed enterprise.",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Free Trial",
+                    "url": "https://www.microfocus.com/en-us/products/data-protector-backup-recovery-software/free-trial"
+                },
+                {
+                    "type": "Demo",
+                    "url": "https://www.microfocus.com/en-us/products/data-protector-backup-recovery-software/request-demo"
+                }
+            ],
+            "Support Login": "https://www.microfocus.com/en-us/support/Data%20Protector",
+            "Community": "https://community.microfocus.com/img/bandr/"
+        },
+        {
+            "Starting Letter": "D",
+            "Product Name": "Data Protector for Cloud Workloads",
+            "Description": "A modern backup protection solution, ensuring disaster recovery and fast ransomware restore for Microsoft 365, containers, hypervisors, and cloud platforms.",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Free Trial",
+                    "url": "https://www.microfocus.com/en-us/products/data-protector-for-cloud-workloads/free-trial"
+                }
+            ],
+            "Support Login": "N/A",
+            "Community": "N/A"
+        },
+        {
+            "Starting Letter": "D",
+            "Product Name": "Dimensions RM",
+            "Description": "Requirements management solution that provides end-to-end traceability of processes",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Free Trial",
+                    "url": "https://www.microfocus.com/products/dimensions-rm/trial/"
+                }
+            ],
+            "Support Login": "https://www.microfocus.com/en-us/support/Dimensions%20RM",
+            "Community": "https://community.microfocus.com/adtd/dimensionsrm/"
+        },
+        {
+            "Starting Letter": "E",
+            "Product Name": "Enterprise Suite",
+            "Description": "Analysis, development, test, and deployment solutions for IBM z Systems",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Free Trial",
+                    "url": "https://www.microfocus.com/en-us/products/enterprise-suite/request-trial"
+                }
+            ],
+            "Support Login": "N/A",
+            "Community": "N/A"
+        },
+        {
+            "Starting Letter": "F",
+            "Product Name": "Filr",
+            "Description": "Provides secure file access and sharing from any device",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Demo",
+                    "url": "https://www.microfocus.com/en-us/products/filr/request-demo"
+                }
+            ],
+            "Support Login": "https://www.microfocus.com/en-us/support/Filr",
+            "Community": "https://community.microfocus.com/collaboration/filr/"
+        },
+        {
+            "Starting Letter": "F",
+            "Product Name": "Fortify on Demand",
+            "Description": "Application Security as a managed service",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Free Trial",
+                    "url": "https://www.microfocus.com/en-us/products/application-security-testing/free-trial"
+                },
+                {
+                    "type": "Demo",
+                    "url": "https://www.microfocus.com/en-us/products/application-security-testing/request-demo"
+                }
+            ],
+            "Support Login": "https://www.microfocus.com/en-us/support/Fortify%20on%20Demand",
+            "Community": "https://community.microfocus.com/cyberres/fortify/"
+        },
+        {
+            "Starting Letter": "F",
+            "Product Name": "Fortify WebInspect",
+            "Description": "Provides comprehensive dynamic analysis of complex web applications and services",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Demo",
+                    "url": "https://www.microfocus.com/en-us/products/webinspect-dynamic-analysis-dast/request-demo"
+                }
+            ],
+            "Support Login": "https://www.microfocus.com/en-us/support/Fortify%20WebInspect",
+            "Community": "https://community.microfocus.com/cyberres/fortify/"
+        },
+        {
+            "Starting Letter": "H",
+            "Product Name": "HCMX FinOps Express",
+            "Description": "Optimize your cloud costs. Cut waste and control spend with Micro Focus HCMX FinOps Express.",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Demo",
+                    "url": "https://www.microfocus.com/en-us/products/finops-express/request-demo"
+                }
+            ],
+            "Support Login": "N/A",
+            "Community": "N/A"
+        },
+        {
+            "Starting Letter": "H",
+            "Product Name": "Hybrid Cloud Management X",
+            "Description": "Easier and enhanced multi cloud management. Deploy business customized solutions with flexibility and speed.",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Demo",
+                    "url": "https://www.microfocus.com/en-us/products/hybrid-cloud-management-x/request-demo"
+                }
+            ],
+            "Support Login": "N/A",
+            "Community": "N/A"
+        },
+        {
+            "Starting Letter": "I",
+            "Product Name": "IDOL",
+            "Description": "Securely access and analyze enterprise (and public) text, audio, and video data.",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Demo",
+                    "url": "https://www.microfocus.com/en-us/products/information-data-analytics-idol/request-demo"
+                }
+            ],
+            "Support Login": "https://www.microfocus.com/en-us/support/IDOL",
+            "Community": "https://community.microfocus.com/t5/IDOL/ct-p/IDOL"
+        },
+        {
+            "Starting Letter": "L",
+            "Product Name": "Law Enforcement Media Analysis",
+            "Description": "Digital forensics for organizations processing video and image evidence who need to identify and extract facts during an investigation – Powered by IDOL.",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Demo",
+                    "url": "https://www.microfocus.com/en-us/products/law-enforcement-media-analysis/request-demo"
+                }
+            ],
+            "Support Login": "N/A",
+            "Community": "N/A"
+        },
+        {
+            "Starting Letter": "L",
+            "Product Name": "LoadRunner Cloud",
+            "Description": "Simple and scalable SaaS delivered performance testing solution.",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Free Trial",
+                    "url": "https://www.microfocus.com/en-us/products/loadrunner-cloud/free-trial"
+                }
+            ],
+            "Support Login": "N/A",
+            "Community": "N/A"
+        },
+        {
+            "Starting Letter": "L",
+            "Product Name": "LoadRunner Enterprise",
+            "Description": "Cross-enterprise performance testing for multiple and concurrent testing projects",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Demo",
+                    "url": "https://www.microfocus.com/en-us/products/loadrunner-enterprise/request-demo"
+                }
+            ],
+            "Support Login": "N/A",
+            "Community": "N/A"
+        },
+        {
+            "Starting Letter": "L",
+            "Product Name": "LoadRunner Professional",
+            "Description": "The premium, market leading performance testing solution for project teams.",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Free Trial",
+                    "url": "https://www.microfocus.com/en-us/products/loadrunner-professional/free-trial"
+                }
+            ],
+            "Support Login": "N/A",
+            "Community": "N/A"
+        },
+        {
+            "Starting Letter": "N",
+            "Product Name": "NetIQ Advanced Authentication",
+            "Description": "Move beyond username and passwords and securely protect data and applications",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Free Trial",
+                    "url": "https://www.netiq.com/products/advanced-authentication/download/"
+                }
+            ],
+            "Support Login": "N/A",
+            "Community": "N/A"
+        },
+        {
+            "Starting Letter": "N",
+            "Product Name": "NetIQ Data Access Governance (DAG)",
+            "Description": "Expand identity and access management (IAM) to include unstructured data.",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Demo",
+                    "url": "https://www.microfocus.com/en-us/products/data-access-governance/request-demo"
+                }
+            ],
+            "Support Login": "N/A",
+            "Community": "N/A"
+        },
+        {
+            "Starting Letter": "N",
+            "Product Name": "Network Automation",
+            "Description": "Drive automated configuration, change and security compliance across your enterprise network. The capabilities of Network Automation are also included in Network Operations Management.",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Demo",
+                    "url": "https://www.microfocus.com/en-us/products/network-automation/request-demo"
+                }
+            ],
+            "Support Login": "N/A",
+            "Community": "N/A"
+        },
+        {
+            "Starting Letter": "N",
+            "Product Name": "Network Node Manager i",
+            "Description": "Unifies fault, availability, and performance monitoring for networks. The capabilities of Network Node Manager i are also included in Network Operations Management.",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Demo",
+                    "url": "https://www.microfocus.com/en-us/products/network-node-manager-i-network-management-software/request-demo"
+                }
+            ],
+            "Support Login": "N/A",
+            "Community": "N/A"
+        },
+        {
+            "Starting Letter": "N",
+            "Product Name": "Network Operations Management Suite",
+            "Description": "Monitor, manage, troubleshoot, automate, and ensure compliance for traditional, virtual, and software-defined networks (SDN). Network Operations Management includes the functionality of Network Node Manager i, Network Automation, and more.",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Demo",
+                    "url": "https://www.microfocus.com/en-us/products/network-operations-management-suite/request-demo"
+                }
+            ],
+            "Support Login": "N/A",
+            "Community": "N/A"
+        },
+        {
+            "Starting Letter": "O",
+            "Product Name": "Open Source Select Enterprise",
+            "Description": "See how Select Enterprise works and get answers on how this benefits your organization.",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Demo",
+                    "url": "https://www.microfocus.com/en-us/products/open-source-select-enterprise/request-demo"
+                }
+            ],
+            "Support Login": "N/A",
+            "Community": "N/A"
+        },
+        {
+            "Starting Letter": "O",
+            "Product Name": "Operations Bridge",
+            "Description": "AIOps for Cloud Monitoring - Automated event and performance monitoring for multi-cloud and on-premises environments as well as complete application health management including synthetic and real user application monitoring and diagnostics. The capabilities of Business Process Monitor, Real User Monitor, and Diagnostics are included in Operations Bridge.",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Demo",
+                    "url": "https://www.microfocus.com/en-us/products/operations-bridge/request-demo"
+                }
+            ],
+            "Support Login": "N/A",
+            "Community": "N/A"
+        },
+        {
+            "Starting Letter": "O",
+            "Product Name": "Operations Bridge Integration Hub",
+            "Description": "Integration of Operations Bridge to many 3rd party monitoring and ticketing tools. Customers download here.",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Free Trial",
+                    "url": "https://www.microfocus.com/en-us/products/operations-bridge-integration-hub/free-trial"
+                }
+            ],
+            "Support Login": "N/A",
+            "Community": "N/A"
+        },
+        {
+            "Starting Letter": "O",
+            "Product Name": "Operations Bridge Integration Hub for Partners",
+            "Description": "Integration of Operations Bridge to many 3rd party monitoring and ticketing tools. Partners download here.",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Free Trial",
+                    "url": "https://www.microfocus.com/en-us/products/operations-bridge-integration-hub1-instance/free-trial"
+                }
+            ],
+            "Support Login": "N/A",
+            "Community": "N/A"
+        },
+        {
+            "Starting Letter": "O",
+            "Product Name": "Operations Bridge Manager",
+            "Description": "Operations Bridge Manager (OBM) is the core component of the Operations Bridge, it automatically discovers and correlates data, event topology, and metrics. Data comes from agents and connectors.",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Demo",
+                    "url": "https://www.microfocus.com/en-us/products/operations-bridge-manager/request-demo"
+                }
+            ],
+            "Support Login": "N/A",
+            "Community": "N/A"
+        },
+        {
+            "Starting Letter": "O",
+            "Product Name": "Operations Orchestration with RPA",
+            "Description": "Orchestrate end-to-end IT processes with outstanding agility.",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Demo",
+                    "url": "https://www.microfocus.com/en-us/products/operations-orchestration-it-process-automation/request-demo"
+                }
+            ],
+            "Support Login": "N/A",
+            "Community": "N/A"
+        },
+        {
+            "Starting Letter": "R",
+            "Product Name": "Retain Unified Archiving",
+            "Description": "Archive all business communication for case assessment, search, and eDiscovery.",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Demo",
+                    "url": "https://www.microfocus.com/en-us/products/retain-unified-archiving/request-demo"
+                }
+            ],
+            "Support Login": "https://www.microfocus.com/en-us/support/Retain%20Unified%20Archiving",
+            "Community": "https://community.microfocus.com/t5/Retain/ct-p/Retain"
+        },
+        {
+            "Starting Letter": "S",
+            "Product Name": "Server Automation",
+            "Description": "Automate server lifecycle management across heterogeneous server environments.",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Demo",
+                    "url": "https://www.microfocus.com/en-us/products/server-automation-software/request-demo"
+                }
+            ],
+            "Support Login": "N/A",
+            "Community": "N/A"
+        },
+        {
+            "Starting Letter": "S",
+            "Product Name": "Service Management Automation X (SMAX)",
+            "Description": "Machine learning-based ITSM and ESM software to meet all your service desk and IT service management needs.",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Free Trial",
+                    "url": "https://www.microfocus.com/en-us/products/service-management-automation-suite/free-trial"
+                },
+                {
+                    "type": "Demo",
+                    "url": "https://www.microfocus.com/en-us/products/service-management-automation-suite/request-demo"
+                }
+            ],
+            "Support Login": "N/A",
+            "Community": "N/A"
+        },
+        {
+            "Starting Letter": "S",
+            "Product Name": "SiteScope",
+            "Description": "Agentless application monitoring that provides heterogeneous and hybrid support, and quick time to value with easy installation and configuration.",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Demo",
+                    "url": "https://www.microfocus.com/en-us/products/sitescope-application-monitoring/request-demo"
+                }
+            ],
+            "Support Login": "N/A",
+            "Community": "N/A"
+        },
+        {
+            "Starting Letter": "U",
+            "Product Name": "UFT Developer",
+            "Description": "UFT Developer is a shift-left functional test automation tool that enables easy test creation using the IDE, language, and testing frameworks of choice",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Free Trial",
+                    "url": "https://www.microfocus.com/en-us/products/uft-developer/free-trial"
+                },
+                {
+                    "type": "Demo",
+                    "url": "https://www.microfocus.com/en-us/products/uft-developer/request-demo"
+                }
+            ],
+            "Support Login": "N/A",
+            "Community": "N/A"
+        },
+        {
+            "Starting Letter": "U",
+            "Product Name": "UFT Digital Lab",
+            "Description": "A lab of real devices to help you build an app experience from real-world insights",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Demo",
+                    "url": "https://www.microfocus.com/en-us/products/uft-digital-lab/request-demo"
+                }
+            ],
+            "Support Login": "N/A",
+            "Community": "N/A"
+        },
+        {
+            "Starting Letter": "U",
+            "Product Name": "UFT Mobile",
+            "Description": "A lab of real devices to help you build an app experience from real-world insights",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Demo",
+                    "url": "https://www.microfocus.com/en-us/products/uft-mobile/request-demo"
+                }
+            ],
+            "Support Login": "N/A",
+            "Community": "N/A"
+        },
+        {
+            "Starting Letter": "U",
+            "Product Name": "UFT One",
+            "Description": "UFT One automates functional testing for web, mobile, API, RPA, and enterprise application software, increasing test coverage from the UI to the API.",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Free Trial",
+                    "url": "https://www.microfocus.com/en-us/products/uft-one/free-trial"
+                },
+                {
+                    "type": "Demo",
+                    "url": "https://www.microfocus.com/en-us/products/uft-one/request-demo"
+                }
+            ],
+            "Support Login": "N/A",
+            "Community": "N/A"
+        },
+        {
+            "Starting Letter": "U",
+            "Product Name": "Universal Discovery and Universal CMDB",
+            "Description": "Collects, stores, manages, updates, and shows data on infrastructure configuration",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Demo",
+                    "url": "https://www.microfocus.com/en-us/products/configuration-management-system-database/request-demo"
+                }
+            ],
+            "Support Login": "N/A",
+            "Community": "N/A"
+        },
+        {
+            "Starting Letter": "U",
+            "Product Name": "Unstructured Data Analytics OEM SDK – Powered by IDOL",
+            "Description": "Unstructured Data Analytics OEM SDK – Powered by IDOL",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Demo",
+                    "url": "https://www.microfocus.com/en-us/products/unstructured-data-analytics-oem-sdk/request-demo"
+                }
+            ],
+            "Support Login": "N/A",
+            "Community": "N/A"
+        },
+        {
+            "Starting Letter": "V",
+            "Product Name": "Vertica",
+            "Description": "Vertica Analytics Database is the leading unified analytics warehouse and data lake",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Free Trial",
+                    "url": "https://www.microfocus.com/en-us/products/analytics-database/free-trial"
+                }
+            ],
+            "Support Login": "N/A",
+            "Community": "N/A"
+        },
+        {
+            "Starting Letter": "V",
+            "Product Name": "Vertica",
+            "Description": "Achieve the best value and the highest performance with our analytical database. Any data analytics, at any scale, anywhere.",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Free Trial",
+                    "url": "https://www.vertica.com/landing-page/start-your-free-trial-today/"
+                }
+            ],
+            "Support Login": "N/A",
+            "Community": "N/A"
+        },
+        {
+            "Starting Letter": "V",
+            "Product Name": "VM Explorer",
+            "Description": "VM backup and replication for VMware vSphere and Microsoft Hyper-V environments.",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Free Trial",
+                    "url": "https://www.microfocus.com/en-us/products/vm-server-backup/request-trial"
+                }
+            ],
+            "Support Login": "N/A",
+            "Community": "N/A"
+        },
+        {
+            "Starting Letter": "V",
+            "Product Name": "Voltage Fusion",
+            "Description": "Quickly find, protect, and secure your sensitive and high-value data with Voltage Fusion.",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Demo",
+                    "url": "https://www.microfocus.com/en-us/products/voltage-fusion/request-demo"
+                }
+            ],
+            "Support Login": "N/A",
+            "Community": "N/A"
+        },
+        {
+            "Starting Letter": "V",
+            "Product Name": "Voltage Fusion",
+            "Description": "Quickly find, protect, and secure your sensitive and high-value data with Voltage Fusion.",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Demo",
+                    "url": "https://www.microfocus.com/en-us/products/voltage-file-analysis-suite/request-demo"
+                }
+            ],
+            "Support Login": "N/A",
+            "Community": "N/A"
+        },
+        {
+            "Starting Letter": "V",
+            "Product Name": "Voltage SecureData Integrations for Snowflake",
+            "Description": "Enabling high-scale, high-performance, and secure data analytics, data science and data sharing.",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Demo",
+                    "url": "https://www.microfocus.com/en-us/products/voltage-securedata-for-snowflake/request-demo"
+                }
+            ],
+            "Support Login": "N/A",
+            "Community": "N/A"
+        },
+        {
+            "Starting Letter": "V",
+            "Product Name": "Voltage SecureMail",
+            "Description": "Achieving email security with an end-to-end email encryption solution without impacting the user experience.",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Free Trial",
+                    "url": "https://www.microfocus.com/products/cloud-email-encryption/free-trial"
+                }
+            ],
+            "Support Login": "https://www.microfocus.com/en-us/support/Voltage%20SecureMail",
+            "Community": "https://community.microfocus.com/t5/Voltage/ct-p/Voltage"
+        },
+        {
+            "Starting Letter": "V",
+            "Product Name": "Voltage SecureMail Cloud",
+            "Description": "SaaS service for the protection of your most sensitive information and your email transition to Office 365.",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Free Trial",
+                    "url": "https://www.microfocus.com/en-us/products/cloud-email-encryption/free-trial"
+                }
+            ],
+            "Support Login": "N/A",
+            "Community": "N/A"
+        },
+        {
+            "Starting Letter": "Z",
+            "Product Name": "ZENworks Suite",
+            "Description": "ZENworks Suite helps you easily track, manage, and protect your endpoint devices.",
+            "Free Trial / Demo Request URL": [
+                {
+                    "type": "Free Trial",
+                    "url": "https://www.microfocus.com/products/zenworks/trial/"
+                }
+            ],
+            "Support Login": "N/A",
+            "Community": "N/A"
+        }
+    ]
+}
